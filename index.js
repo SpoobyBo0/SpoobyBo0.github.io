@@ -10,3 +10,9 @@ btn.onclick = function (event) {
         window.location.href = "index.html";
     }, 3000);
 }
+
+
+
+function kontakta() {
+    location.href = "https://www.youtube.com/watch?v=orBQesFBkXg";
+}
