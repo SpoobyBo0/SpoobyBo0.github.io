@@ -57,13 +57,3 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
-.carousel-inner .carousel- slides {
-
-    width: 30px !important;
-    height: 30px !important;
-}
-
-.carousel-slide {
-    position: center !important;
-}
