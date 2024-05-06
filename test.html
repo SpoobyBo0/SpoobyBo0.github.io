@@ -4,106 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chef Tingeling's Restaurant</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <title>Animated Title Text Hover</title>
     <style>
-        .menu-section {
-            margin-bottom: 50px;
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            transition: font-size 0.3s ease;
         }
 
-        .menu-section h3 {
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-
-        .menu-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .menu-item img {
-            width: 100px;
-            height: 100px;
-            margin-right: 20px;
-            border-radius: 5px;
-            object-fit: cover;
-        }
-
-        .menu-item-details {
-            flex: 1;
+        .title:hover {
+            font-size: 30px;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <h1>Chef Tingeling's Restaurant</h1>
-    </header>
 
-    <main>
-        <ul class="nav nav-tabs sticky-top">
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">BOKABORD</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="lunchmeny.html">LUNCHMENY</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="öppetider.html">ÖPPETIDER</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="hitta-hit.html">HITTA HIT</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="omoss.html">OM OSS</a>
-            </li>
-        </ul>
+    <h1 class="title">Hover Over Me!</h1>
 
-        <div class="container">
-            <h2>Menu</h2>
-
-            <section class="menu-section">
-                <h3>Meat</h3>
-                <div class="menu-item">
-                    <img src="meat1.jpg" alt="Grilled Steak">
-                    <div class="menu-item-details">
-                        <h4>Grilled Steak</h4>
-                        <p>A juicy grilled steak served with roasted vegetables and mashed potatoes.</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img src="meat2.jpg" alt="Roast Chicken">
-                    <div class="menu-item-details">
-                        <h4>Roast Chicken</h4>
-                        <p>Tender roast chicken served with creamy mushroom sauce and rice pilaf.</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img src="meat3.jpg" alt="BBQ Ribs">
-                    <div class="menu-item-details">
-                        <h4>BBQ Ribs</h4>
-                        <p>Slow-cooked BBQ ribs glazed with tangy barbecue sauce, served with coleslaw and fries.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Repeat similar sections for Fish and Vegetarian categories -->
-        </div>
-    </main>
-
-    <footer class="footer mt-auto py-3 bg-light">
-        <div class="container">
-            <span class="text-muted">© 2024 Chef Tingeling's Restaurant. All rights reserved.</span>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>

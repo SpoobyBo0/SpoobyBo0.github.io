@@ -29,6 +29,12 @@
 
 .nav-link {
     color: #192C3E;
+    font-weight: bold;
+    transition: font-size 0.3s ease;
+}
+
+.nav-link:hover {
+    font-size: 20px;
 }
 
 /*Boknings javascript box */
