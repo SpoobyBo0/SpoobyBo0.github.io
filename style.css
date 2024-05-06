@@ -31,13 +31,11 @@
 
 .nav-link {
     color: #192C3E;
-    font-weight: bold;
-    transition: font-size 0.3s ease;
 }
 
 
 .nav-item:hover {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 /*Boknings javascript box */
