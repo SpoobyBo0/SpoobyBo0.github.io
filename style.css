@@ -11,7 +11,7 @@
 }
 
 .nav.nav-tabs .sticky-top {
-    background-color: #4375a7 !important;
+    background-color: #315478 !important;
 }
 
 .nav-item {
@@ -25,6 +25,10 @@
     position: absolute;
     left: 1700px;
     top: 20px;
+}
+
+.nav-link {
+    color: #192C3E;
 }
 
 /*Boknings javascript box */
