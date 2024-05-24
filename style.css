@@ -5,13 +5,30 @@
     margin-top: 20px;
 }
 
-.nav.nav-tabs .nav-link.active {
+.navbar-nav .nav-link.active {
     background-color: #315478 !important;
     color: #fff !important;
 }
 
-.nav.nav-tabs .sticky-top {
-    background-color: #315478 !important;
+.navbar-light.sticky-top {
+    background-color: #ffffff !important;
+}
+
+.row img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.row .col {
+    padding: 10px;
+}
+
+.col img {
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .nav-item {
@@ -21,6 +38,7 @@
     margin-right: 10px;
     font-weight: bold;
     transition: font-size 0.3s ease;
+
 }
 
 .logo {
